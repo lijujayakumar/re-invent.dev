@@ -2,15 +2,19 @@
   "name": "re-invent.dev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lijujayakumar.github.io/re-invent.dev",
+  "homepage": "https://lijujayakumar.github.io/re-invent.dev/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.2",
     "gh-pages": "^6.0.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
+    "react-video": "^1.5.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -19,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages"
+    "deploy": "gh-pages --dist build"
   },
   "eslintConfig": {
     "extends": [
